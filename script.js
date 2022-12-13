@@ -13,8 +13,10 @@ buttons.forEach((button, index)=>{
         if(e.target.tagName === 'BUTTON' || e.target.tagName === 'SPAN'){
             buttons.forEach(button=>{
                 button.classList.remove('active')
+                button.style.backgroundColor = '#252b2c'
             })
             button.classList.add('active')
+            button.style.backgroundColor ='#4a4d4e'
             widget_text.innerHTML = widget_text_content[Object.keys(widget_text_content)[index]]
         }
 

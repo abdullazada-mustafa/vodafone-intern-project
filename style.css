@@ -98,25 +98,26 @@ body {
   }
 }
 .section_2 .section_2--container .text-zone button {
-  background-color: #252b2d;
+  background-color: #252b2c;
   padding: 2rem 1rem;
   color: #fff;
   border: none;
   cursor: pointer;
   transition: background 0.2s;
 }
+.section_2 .section_2--container .text-zone button:hover {
+  background-color: #4a4d4e;
+}
 .text-zone .buttons .arrow {
   color: rgb(239, 1, 1);
 }
 .text-zone button.active {
-  background-color: #494c4d;
+  background-color: #252b2c;
 }
 .text-zone button.active .arrow {
   display: none;
 }
-.text-zone button:hover {
-  background-color: #494c4d;
-}
+
 
 .section_2 .illustration_mobile {
   display: none;
